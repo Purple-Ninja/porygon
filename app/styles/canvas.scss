@@ -1,0 +1,47 @@
+
+@import "_variables.scss";
+
+.convas-container {
+
+  margin-top: $header-height;
+
+  .canvas {
+    padding-top: 25px;
+    height: 1000px;
+  }
+  #markdown {
+    background: #f5f5f5;
+  }
+  #preview {
+    background: #fff;
+  }
+}
+
+.header {
+  margin-bottom: 0;
+  width: 100%;
+  height: $header-height;
+  z-index: 10;
+  position: fixed;
+  background: #fefefe;
+  box-shadow: 0px -1px 10px 0px #eee;
+
+  // header text
+  .text-muted {
+    line-height: $header-height;
+    padding-left: 15px;
+  }
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  li {
+
+  }
+}
+
+.nav-pills > li {
+  display: inline-block;
+}
