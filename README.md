@@ -20,6 +20,7 @@ $ npm install --global gulp-cli bower
 
    ```
 $ npm install
+$ bower install
 	```
 
 - Development
