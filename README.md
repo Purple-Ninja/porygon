@@ -7,7 +7,7 @@
 
 1. Node.js `v4`
 2. NPM `v3`
-3. `gulp-cli` and `bower`
+3. install `gulp-cli` and `bower`:
 
    ```
 $ npm install --global gulp-cli bower
@@ -15,6 +15,12 @@ $ npm install --global gulp-cli bower
 
 
 ### Getting Started
+
+- Installation
+
+   ```
+$ npm install
+	```
 
 - Development
 
